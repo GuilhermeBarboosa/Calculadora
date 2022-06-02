@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+body {
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+#resultado {
+    padding-top: 55px;
+    text-align: right;
+    font-size: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+    resize: none;
+    overflow: hidden;
+}
+
+.tela {
+    background-color: black;
+    color: aqua;
+    padding: 0;
+    height: 0;
+    /* max-width: 300px; */
+}
+
+.calc {
+    position: relative;
+    margin: 50px;
+    margin-top: 10%;
+}
+
+.calcCompleta {
+
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    padding: 0;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    margin: -70px 0 0 -170px;
+}
+
+table {
+    font-size: 30px;
+    text-align: center;
+}
+
+th {
+    box-shadow: inset 0px 0px 15px 3px #23395e;
+    background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+    background-color: #2e466e;
+    border: 1px solid #1f2f47;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #263666;
+}
+
+th:hover {
+    background: linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+    background-color: #415989;
+}
+
+th:active {
+    position: relative;
+    top: 1px;
+}
+
+.num {
+    height: 100%;
+}
+
+.tecla {
+    margin-top: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.minhaTabela {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+
+/* 11 */
+/* .btn-11 {
+    border: none;
+    background: rgb(251, 33, 117);
+    background: linear-gradient(0deg, rgba(251, 33, 117, 1) 0%, rgba(234, 76, 137, 1) 100%);
+    color: #fff;
+    overflow: hidden;
+}
+
+.btn-11:hover {
+    border: 2px solid #fd007e;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fff;
+    opacity: .7;
+    transform: scale(1.02);
+    transition: all 0s;
+}
+
+.btn-11:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+
+.btn-11:active {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .3),
+        -4px -4px 6px 0 rgba(116, 125, 136, .2),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+.btn-11:focus {
+    outline: none;
+    box-shadow: none;
+} */
